@@ -1,5 +1,5 @@
 {
-    "name": "etgwebkit/contao-slick",
+    "name": "heimrichhannot/contao-slick",
     "description":"Slick, a content slider for contao.",
     "keywords":["contao", "carousel", "slider", "slick"],
     "type": "contao-module",
