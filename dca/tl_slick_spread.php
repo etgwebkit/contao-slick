@@ -83,6 +83,7 @@ $GLOBALS['TL_DCA']['tl_slick_spread'] = array
 		'slickConfig'            => array
 		(
 			'label'      => &$GLOBALS['TL_LANG']['tl_slick_spread']['slickConfig'],
+			'default'	 => 0,
 			'inputType'  => 'select',
 			'exclude'    => true,
 			'foreignKey' => 'tl_slick_config.title',
@@ -237,6 +238,7 @@ $GLOBALS['TL_DCA']['tl_slick_spread'] = array
 		'slick_asNavFor'         => array
 		(
 			'label'            => &$GLOBALS['TL_LANG']['tl_slick_spread']['slick_asNavFor'],
+			'default'		   => 0,
 			'inputType'        => 'select',
 			'options_callback' => array('tl_slick_spread', 'getConfigurations'),
 			'eval'             => array
